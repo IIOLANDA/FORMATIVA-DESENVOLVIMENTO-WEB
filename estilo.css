@@ -38,3 +38,6 @@ color: #fff;
 border-radius: 5px;
 transition: 0.3s;
 }
+body {
+  text-align: center;
+}
