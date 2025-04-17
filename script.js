@@ -1,10 +1,9 @@
-
-deixe display = document.getElementById("display");
+let display = document.getElementById("display");
 
 function adicionarValor(valor) {
-    display.valor += valor;
+    display.value += valor;
 }
 
-função limpar() {
-    display.valor = "";
+function limpar() {
+    display.value = "";
 }
