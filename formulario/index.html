@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,8 +8,8 @@
     <title>Meu Formulário</title>
     <style>
         div { width: '100%'}
-
     </style>
+</head>
 <body>
     <h1>Músicas Favoritas</h1>
     <form method="post" action="https://formtester.goodbytes.be/post.php">
@@ -15,14 +17,18 @@
             <label for="nomeMusica">Nome da Música</label>
             <input type='text' id="nomeMusica" name="nomeMusica" />
         </fieldset>
-
         <div>
             <label for="nomeArtista">Nome do Artista</label>
             <input type='text' id="nomeArtista" name="nomeArtista" />
         </div>
-
-        <label for="senha">Senha</label>
-        <input type='password' id="senha" name="senha" />
+        <div>
+            <label for="senha">Senha do arquivo</label>
+            <input type='password' id="senha" name="senha" />
+        </div>  
+        <div>
+            <label for="email">E-mail da gravadora</label>
+            <input type='email' id="email" name="email" />
+        </div>        
 
         <button type="submit">Enviar</button>
 
