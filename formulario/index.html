@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -19,6 +18,18 @@
             <label for="nomeMusica">Nome da Música</label>
             <input type='text' id="nomeMusica" name="nomeMusica" required
                 placeholder="Someone like you"/>
+        </fieldset>
+        <fieldset>
+            <label for="avaliacao">Nota artista</label>
+            
+            <label for="avaliacaoOtimo">Otimo</label>
+            <input type='radio' name="avaliacao" id="avaliacaoOtimo" />
+
+            <label for="avaliacaoMedio">Médio</label>
+            <input type='radio' name="avaliacao" id="avaliacaoMedio" />
+
+            <label for="avaliacaoFraco">Fraco</label>
+            <input type='radio' name="avaliacao" id="avaliacaoFraco" />
         </fieldset>
         <div>
             <label for="nomeArtista">Nome do Artista</label>
@@ -64,23 +75,25 @@
         <div>
             <label for="mes">Mês</label>
             <input type='month' id="mes" name="mes" />
-        </div>   
-        
+        </div>           
         <div>
             <label for="semana">Semana</label>
             <input type='week' id="semana" name="semana" />
-        </div>   
-        
+        </div>           
         <div>
             <label for="hora">Hora</label>
             <input type='time' id="hora" name="hora" required />
-        </div>  
-        
+        </div>          
         <div>
             <input type='hidden' id="usuarioLogado" name="usuarioLogado" 
                 value="khyquer" />
         </div>   
 
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
         <button type="submit">Enviar</button>
 
     </form>
